@@ -2,7 +2,7 @@
   background: transparent;
   outline: none;
 
-  max-width: 28.8rem;
+  max-width: 25.6rem;
 
   color: var(--gray-900);
 
@@ -17,5 +17,12 @@
 
   &::placeholder {
     color: var(--gray-600);
+  }
+}
+
+@media (max-width: 768px) {
+  .form input {
+    max-width: 35.56rem;
+    font-size: 2.8rem;
   }
 }

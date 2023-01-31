@@ -4,7 +4,7 @@
   background: var(--gray-600);
   color: var(--gray-100);
 
-  width: 28.8rem;
+  width: 25.6rem;
 
   margin-top: 1.2rem;
   padding: 1.2rem 1.6rem;
@@ -22,5 +22,15 @@
     color: var(--gray-600);
     background: transparent;
     border: 2px solid var(--gray-600);
+  }
+}
+
+@media (max-width: 768px) {
+  .resetButton {
+    margin-top: 2.8rem;
+
+    padding: 3.2rem 2.8rem;
+    width: 35.56rem;
+    font-size: 2.8rem;
   }
 }

@@ -19,3 +19,10 @@
   background: var(--gray-200);
   color: var(--gray-900);
 }
+
+@media (max-width: 768px) {
+  .letter {
+    font-size: 3.2rem;
+    padding: 0.8rem;
+  }
+}

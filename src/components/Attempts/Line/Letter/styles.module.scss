@@ -38,6 +38,14 @@ button {
   animation: flip 0.5s;
 }
 
+@media (max-width: 768px) {
+  span {
+    font-size: 3.6rem;
+    width: 6.8rem;
+    height: 6.8rem;
+  }
+}
+
 @-webkit-keyframes flip {
   0% {
     -webkit-transform: rotateX(-180deg);

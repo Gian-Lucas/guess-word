@@ -21,7 +21,7 @@ export const words = [
   "selva",
   "solar",
   "casca",
-  "marco",
+  "barco",
   "poeta",
   "festa",
   "mesmo",
@@ -39,6 +39,6 @@ export const words = [
   "tinta",
   "sonho",
   "maior",
-  "amiga",
+  "texto",
   "minha",
 ];

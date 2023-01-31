@@ -1,0 +1,21 @@
+.form input {
+  background: transparent;
+  outline: none;
+
+  max-width: 28.8rem;
+
+  color: var(--gray-900);
+
+  margin-top: 1.2rem;
+  padding: 0.8rem;
+
+  font-family: "Poppins";
+  font-size: 2rem;
+
+  border-radius: 8px;
+  border: 2px solid var(--gray-600);
+
+  &::placeholder {
+    color: var(--gray-600);
+  }
+}

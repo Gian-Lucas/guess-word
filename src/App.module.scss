@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  h1 {
+    font-family: "Poppins";
+    font-size: 3.6rem;
+  }
+}

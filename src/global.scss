@@ -1,0 +1,49 @@
+:root {
+  --gray-900: #111111;
+  --gray-600: #344152;
+  --gray-200: #d0d5dc;
+  --gray-100: #f2f2f2;
+
+  --yellow-500: #f4b000;
+  --green-500: #009965;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--gray-600);
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+}
+
+body,
+input,
+button {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 43.75%; // 1rem = 7px
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 37.5%; // 1rem = 6px
+  }
+}

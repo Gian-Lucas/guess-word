@@ -11,6 +11,8 @@
 
 @media (max-width: 768px) {
   .keyboard {
+    width: 95vw;
+    max-width: 520px;
     position: fixed;
     bottom: 0;
     margin: 0 0 2rem 0;
